@@ -20,12 +20,13 @@ nav a:hover{
 }
 
 button{
-    padding: 10px 40px;
+    font-family:'Press Start 2P';
+    padding: 15px 30px;
     border-radius: 50px;
     background-color: rgb(184, 150, 88);
     color: rgb(255, 255, 255);
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     transition: .5s;
 }
@@ -35,12 +36,66 @@ button:hover{
 }
 div{
     text-align: center;
-    padding: 200px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.137)), url(zelda\ 2.jpg);
+    padding: 250px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.199)), url(zelda\ 2.jpg);
     background-size: cover; 
 }
 h1{
-    color: rgb(245, 243, 239);
+    color: #ffffff;
+    text-shadow: black 0 0 3px;
 }
+p{
+    color: #ffffff;
+    text-shadow: black 0 0 3px;
+    font-size: 17px;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(54, 161, 125);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    margin:0;
+    padding:50px;
+}
+p{
+   color: #ffffff;
+   text-shadow: black 0 0 3px;
+}
+
+button a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+header button{
+    margin-right: 15px;
+}
+
+@media(max-width: 500px){
+    header{
+        display: block;
+        text-align: center;
+        padding: 20px 5;
+    }
+    nav{
+        margin: 10px 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    div{
+        padding: 40px 20px;
+    }
+    
+
+}
+
 
 
