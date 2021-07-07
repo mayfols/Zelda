@@ -1,0 +1,46 @@
+header{
+    background-color: rgb(54, 161, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    margin: 0;
+    font-family: 'Press Start 2P'; 
+}
+nav a{
+    color: rgb(251, 255, 193);
+    font-size: 20px;
+    margin: 30px;
+    text-decoration: none;
+    }
+nav a:hover{
+    color: darkslategrey;
+    transform: scale(1.1);
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: rgb(184, 150, 88);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: darkslategrey;
+    transform: scale(1.1);
+}
+div{
+    text-align: center;
+    padding: 200px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.137)), url(zelda\ 2.jpg);
+    background-size: cover; 
+}
+h1{
+    color: rgb(245, 243, 239);
+}
+
+
